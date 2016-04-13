@@ -110,19 +110,34 @@
           <br />
           
       <h2>Help us improve our website!</h2>
-          <form class="form-inline" role="form">
-            <div class="form-group">
-              <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email">
+          <form action="//formspree.io/marisachao29@gmail.com" method="POST">
+            <div>
+              <label>Name**</label>
+              <input type="text" name="name" required="required" />
             </div>
-            <div class="form-group">
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd">
+            <br />
+            <div>
+              <label>Email**</label>
+              <input type="text" name="mail" required="required" />
             </div>
-            <div class="checkbox">
-              <label><input type="checkbox"> Remember me</label>
+            <div>
+              <p>Do you have any feedback for our website? What do you love about it, and what could we improve?</p>
+              <textarea name="comments" cols="60" rows="4">Enter your comments </textarea>
+              <p>Would you like a reply from us?
+              <br />
+              <input type="radio" name="reply" value"doreply" checked="checked" /> Yes
+              <input type="radio" name="reply" value="noreply" /> No
+              </p>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+            <div>
+              <p>Receive an email from us when update our list!
+              <input type="checkbox" name="update" value="yes"> 
+              </p>
+            </div>
+            <div>
+              <input type="submit" value="Submit">
+            </div>
+              <p>**required</p>
           </form>
     </div>
         
