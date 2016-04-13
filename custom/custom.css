@@ -1,0 +1,41 @@
+body {
+  margin-bottom: 30px;
+}
+
+h1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h2 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.table-responsive {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.thumbnail {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.dropdown {
+  padding-left: 30px;
+}
+
+h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a:visited {
+  color: black;
+}
