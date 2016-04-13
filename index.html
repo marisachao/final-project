@@ -56,100 +56,9 @@
     </div>
     </div>  
     
-    <div class="container">
-      <div class ="row">
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <form class="form-horizontal" role="form" action="//formspree.io.marisachao29@gmail.com" method="POST">
-            <div class="form-group">
-              <label class="control-label col-md-2 col-sm-2 col-xs-2">Name</label>
-              <div class="col-md-4 col-sm-4 col-xs-10">
-              <input type="text" class="form-control" name="name" placeholder="your name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-md-2 col-sm-2 col-xs-2">Email</label>
-              <div class="col-md-4 col-sm-4 col-xs-10"> 
-              <input type="email" class="form-control" name="mail" placeholder="your email">
-              </div>
-            </div>
-            <div class="form-group"> 
-              <p>Do you live in the Clayton, Missouri area?
-              <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-offset-10">
-              <div class="radio">
-              <input type="radio" name="resident" value"yes" checked="checked" /> Yes
-              <input type="radio" name="resident" value="no" /> No
-              </div>
-              </div>
-              </p>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-md-2 col-sm-2 col-xs-2">Where should we be eating?</label>
-              <div class="col-md-4 col-sm-4 col-xs-10"> 
-              <input type="text" class="form-control" name="recommendation" value="recommendation" size="50">
-            </div>
-            <div class="form-group">
-              <p>How would you categorize this restaurant's food?
-              <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-offset-10">
-              <div class="category">
-              <select name="category">
-                <option value="America">American</option>
-                <option value="Asia">Asian</option>
-                <option value="Brunch">Breakfast & Brunch</option>
-                <option value="Italy">Italian</option>
-                <option value="seafood">Steak & Seafood</option>
-                <option value="noneoftheabove">Other</option>
-              </select>
-              </div>
-              </div>
-              </p>
-            </div>
-            <div class="form-group">
-              <p>Receive an email from us when we update our list!
-              <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-offset-10">
-              <div class="checkbox">
-              <input type="checkbox" name="update" value="yes"> 
-              </div>
-              </div>
-              </p>
-            </div>
-            <div class="form-group"> 
-              <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-offset-10">
-              <button type="submit" class="btn btn-default">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <form class="form-horizontal" role="form">
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="email">Email:</label>
-              <div class="col-md-4 col-sm-4 col-xs-10">
-              <input type="email" class="form-control" id="email" placeholder="Enter email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="pwd">Password:</label>
-              <div class="col-md-4 col-sm-4 col-xs-10"> 
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-              </div>
-            </div>
-            <div class="form-group"> 
-              <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-offset-10">
-              <div class="checkbox">
-              <label><input type="checkbox"> Remember me</label>
-              </div>
-              </div>
-            </div>
-            <div class="form-group"> 
-              <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-offset-10">
-              <button type="submit" class="btn btn-default">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    
+   <body>
+
+    <!-- Modals; Edit with care -->
     <div id="img1" style="display:none;">
 
        <h2>Help others discover new restaurants in Clayton!</h2>
@@ -224,13 +133,16 @@
       </form>
       
     </div>
-    
+
     <div class="container">
-      <p>Know of a place not on this list or want to help us improve our website?</p>
+
+      <section class="page-header">
+        <p>Know of a place not on this list or want to help us improve our website?</p>
         <a href="#img1" rel="modal:open" class="button">Recommend a Restaurant</a>
         <a href="#img2" rel="modal:open" class="button">Give us Feedback</a>
+      </section>
+
     </div>
-    </body>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
