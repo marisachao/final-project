@@ -212,9 +212,9 @@
     "@pager-active-color": "@pagination-active-color",
     "@pager-disabled-color": "@pagination-disabled-color",
     "@jumbotron-padding": "30px",
-    "@jumbotron-color": "#F2DEE1",
+    "@jumbotron-color": "#F7E7E4",
     "@jumbotron-bg": "#7D6669",
-    "@jumbotron-heading-color": "#F2DEE1",
+    "@jumbotron-heading-color": "#F7E7E4",
     "@jumbotron-font-size": "ceil((@font-size-base * 1.5))",
     "@jumbotron-heading-font-size": "ceil((@font-size-base * 4.5))",
     "@state-success-text": "#3c763d",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=69fa2b928c0476fc5fdd1c1460d57fc8"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=3ef188f48065699c899689dd4e6b4ab7"
 }
