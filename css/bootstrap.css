@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=5d664bd32e23999413460b666ebc6daf)
- * Config saved to config.json and https://gist.github.com/5d664bd32e23999413460b666ebc6daf
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=3aa3ec9b83d06287a0de6cdb09b50f12)
+ * Config saved to config.json and https://gist.github.com/3aa3ec9b83d06287a0de6cdb09b50f12
  */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -1091,7 +1091,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #000000;
+  color: #7d6669;
   background-color: #f7e7e4;
 }
 input,
@@ -1103,12 +1103,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #333333;
+  color: #ae9b9e;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #0d0d0d;
+  color: #8b7175;
   text-decoration: underline;
 }
 a:focus {
@@ -2918,7 +2918,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #404040;
+  color: #b9a9ab;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3068,25 +3068,25 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #000000;
   background-color: #d2a69d;
-  border-color: #e1e1e1;
+  border-color: #ca968c;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #000000;
   background-color: #c2867a;
-  border-color: #a1a1a1;
+  border-color: #935143;
 }
 .btn-default:hover {
   color: #000000;
   background-color: #c2867a;
-  border-color: #c2c2c2;
+  border-color: #b77062;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #000000;
   background-color: #c2867a;
-  border-color: #c2c2c2;
+  border-color: #b77062;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -3099,7 +3099,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #000000;
   background-color: #b77062;
-  border-color: #a1a1a1;
+  border-color: #935143;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3116,7 +3116,7 @@ fieldset[disabled] .btn-default:focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
   background-color: #d2a69d;
-  border-color: #e1e1e1;
+  border-color: #ca968c;
 }
 .btn-default .badge {
   color: #d2a69d;
@@ -3408,7 +3408,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #333333;
+  color: #ae9b9e;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3429,7 +3429,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #0d0d0d;
+  color: #8b7175;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4013,7 +4013,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #333333;
+  border-color: #ae9b9e;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4733,7 +4733,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #333333;
+  color: #ae9b9e;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4754,7 +4754,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #0d0d0d;
+  color: #8b7175;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -4952,7 +4952,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #333333;
+  color: #ae9b9e;
   background-color: #ffffff;
 }
 .list-group-item > .badge {
@@ -4968,12 +4968,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: #e1e1e1;
+  color: #c9b9bb;
   background-color: #7d6669;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #e1e1e1;
+  color: #c9b9bb;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -5027,11 +5027,11 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #333333;
+  border-color: #ae9b9e;
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #000000;
+  color: #7d6669;
 }
 .alert {
   padding: 15px;
