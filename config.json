@@ -13,7 +13,7 @@
     "@brand-danger": "#d9534f",
     "@body-bg": "#F7E7E4",
     "@text-color": "#7D6669",
-    "@link-color": "lighten(@text-color, 20%)",
+    "@link-color": "#473A3C",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "underline",
     "@font-family-sans-serif": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
@@ -212,7 +212,7 @@
     "@pager-active-color": "@pagination-active-color",
     "@pager-disabled-color": "@pagination-disabled-color",
     "@jumbotron-padding": "30px",
-    "@jumbotron-color": "#C9B9BB",
+    "@jumbotron-color": "#F2DEE1",
     "@jumbotron-bg": "#7D6669",
     "@jumbotron-heading-color": "#C9B9BB",
     "@jumbotron-font-size": "ceil((@font-size-base * 1.5))",
@@ -330,7 +330,7 @@
     "@panel-danger-heading-bg": "@state-danger-bg",
     "@thumbnail-padding": "4px",
     "@thumbnail-bg": "#E6C7C1",
-    "@thumbnail-border": "#ddd",
+    "@thumbnail-border": "darken(@thumbnail-bg, 7%)",
     "@thumbnail-border-radius": "@border-radius-base",
     "@thumbnail-caption-color": "@text-color",
     "@thumbnail-caption-padding": "9px",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=3aa3ec9b83d06287a0de6cdb09b50f12"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=bb3f3a09816b33c4a105474f986effe6"
 }
