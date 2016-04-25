@@ -1,3 +1,7 @@
 a:visited {
   color: #7D6669;
 }
+
+img {
+  border: 5px solid #7D6669;
+}
